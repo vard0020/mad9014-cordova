@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    position: relative;
+    min-height: 100%;
+}
+.divy {
+    width: 100%;
+    float: left;
+    background-color: grey;
+    margin: 1px;
+/*    border-radius: 10px;    */
+}
+
+.divy .pDiv {
+    float: left;
+    width: 75%;
+    text-align: left;
+}
+
+.divy .inputDiv {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+h1 {
+    padding: 20px;
+    text-align: center;
+    background-color: #FF704D;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    color: grey;
+    font-weight: 100;
+    font-size: 2rem;
+    border:3px solid grey;
+}
+
+body {
+    margin: 0 0 100px;
+    
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width:100%;
+    height: 100px;
+    
+}
+
+.output {
+    padding-top: 30px;
+}
+
+#item {
+    margin-top: 30px;
+    float: center;
+    width: 75%;
+    padding: 15px;
+    margin-bottom:10px;
+    font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+form {
+    text-align: center;
+}
+body {
+background-color: #DEDFF0;
+}
+
+#btnAdd {
+    background-color: #FF704D;
+	border:3px solid grey;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 700;
+	font-size:12px;
+	padding:13px 25px;
+    width: 50%;
+    float: center;
+}
+.myButton:hover {
+	background-color:#FF704D;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+p {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 100;
+    font-size: 16px;
+    padding: 5px 0px;
+    color: white;
+}
+
+.inputDiv {
+    padding: 5px 0px;
+
+}
+
+.instruction {
+    text-align: center;
+}
